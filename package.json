@@ -3,9 +3,12 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "homepage": "https://VladZhyrnyi.github.io/parcel-template",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /parcel-template/"
+    "build": "parcel build src/*.html --public-url /parcel-template/",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "repository": {
     "type": "git",
@@ -17,8 +20,10 @@
   "bugs": {
     "url": "https://github.com/VladZhyrnyi/parcel-template/issues"
   },
-  "homepage": "https://github.com/VladZhyrnyi/parcel-template#readme",
   "devDependencies": {
     "parcel": "^2.8.3"
+  },
+  "dependencies": {
+    "gh-pages": "^5.0.0"
   }
 }
