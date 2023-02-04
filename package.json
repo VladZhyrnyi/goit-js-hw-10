@@ -19,9 +19,11 @@
     "url": "https://github.com/VladZhyrnyi/parcel-template/issues"
   },
   "devDependencies": {
-    "parcel": "^2.8.3"
+    "@parcel/transformer-sass": "^2.8.3",
+    "parcel": "^2.8.3",
+    "parcel-reporter-clean-dist": "^1.0.4",
+    "posthtml-include": "^1.7.4"
   },
-  "dependencies": {
-    "gh-pages": "^5.0.0"
-  }
+
+  "browserslist": "> 0.5%, last 2 versions, not dead"
 }
