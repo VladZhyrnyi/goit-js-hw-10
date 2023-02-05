@@ -2,10 +2,10 @@
   "name": "parcel-template",
   "version": "1.0.0",
   "description": "",
-  "homepage": "https://VladZhyrnyi.github.io/parcel-template",
+  "homepage": "https://VladZhyrnyi.github.io/goit-js-hw-10",
   "scripts": {
     "start": "parcel src/index.html",
-    "build": "parcel build src/index.html --public-url /parcel-template/",
+    "build": "parcel build src/index.html --public-url /goit-js-hw-10/",
     "deploy": "gh-pages -d build"
   },
   "repository": {
