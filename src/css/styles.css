@@ -12,6 +12,11 @@ body {
   line-height: 1.5;
 }
 
+ul {
+  margin: 0;
+  padding: 0;
+}
+
 
 .container {
   width: 1200px;
@@ -35,7 +40,7 @@ body {
   margin-top: 100px;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   gap: 30px;
 
   list-style: none;
@@ -43,7 +48,11 @@ body {
 
 
 .country-list__item {
-  width: calc((100% - 90) / 4);
+  width: 320px;
+}
+
+.country-list__img {
+  height: 140px;
 }
 
 .country-card {
