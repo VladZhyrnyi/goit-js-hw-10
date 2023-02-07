@@ -18,7 +18,11 @@ function onInputChange(e) {
   refs.countryList.innerHTML = "";
   refs.countryCard.innerHTML = "";
 
-  fetchCountries(e.target.value)
+  if (!e.target.value.trim()) {
+    return
+  }
+
+  fetchCountries(e.target.value.trim())
     .then(showResult)
     .catch(() =>
       Notiflix.Notify.failure("Oops, there is no country with that name")
