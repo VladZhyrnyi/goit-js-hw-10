@@ -53,7 +53,7 @@ function createCountryListMarkup(countries) {
 function createCountryCardMarkup(country) {
   return `
 <div class="country-card">
-  <img class="country-card__img" src="${country.flags.png}" alt="${country.name}" height="140">
+  <img class="country-card__img" src="${country.flags.png}" alt="${country.name}">
   <div class="country-card__info">
     <h2 class="country-card__title">${country.name}</h2>
     <p><span class="country-card__info-title">Capital:</span> ${country.capital}</p>
